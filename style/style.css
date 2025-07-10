@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+    
+}
+*,*:after,*::before{
+    box-sizing: inherit;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-style: italic;
+} 
+
+.wrapper{
+ width: 1440px;
+}
+.sett{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.stone{
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+.paper{
+    width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+.scissors{
+   width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+img{
+  width: 200px;
+}
+button{
+  align-items: center;
+  justify-content: center;
+}
